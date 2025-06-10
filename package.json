@@ -15,5 +15,10 @@
     "axios": "^1.8.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-  }
+  },
+          "scripts": {
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build"
+        }
+        
 }
